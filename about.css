@@ -1,0 +1,102 @@
+body
+{
+    background-image: url("istockphoto-1126875395-170667a.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img{  
+    height:60px;
+    width:60px;
+}
+  .collapse ul li::after
+  {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .collapse ul li:hover::after{
+    width: 100%;
+  }
+  h2
+  {
+    font-family: 'Times New Roman', Times, serif;
+  text-align: right;
+  
+  color:white;
+  font-size:40pt;
+  position:relative; right:80px; top:2px; 
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+   
+    text-align: right;
+    font-size:20pt;
+  position:relative; right:80px; top:2px; 
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .col{
+    flex-basis: 31%;
+    background:#84d6d3 ;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding:20px 12px ;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 25px rgba(26, 216, 237, 0.3);
+    transition: 0.5s;
+  }
+  .row{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .course-col{
+    flex-basis: 31%;
+    background:#ffffff ;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding:20px 12px ;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 25px rgba(violet);
+    transition: 0.5s;
+  }
+  .id{
+    justify-content: center;
+    width:60%;
+    height:80%;
+  }
+  div.polaroid {
+    align-items: center;
+    width: 10%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  button{
+    display:ruby-text;
+    width: 50%;
+    margin: 3% auto;
+    color: red;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.6);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    position: center;
+  }
+ 

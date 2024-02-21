@@ -1,0 +1,33 @@
+body{
+    
+    background-image: url("istockphoto-1126875395-170667a.jpg") ;
+    background-size: cover;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:double;
+    color: burlywood;
+}
+h3{
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood;
+    text-align: left;sss
+}
+label
+{
+    text-align:left;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    color: burlywood;
+    text-align: center;
+}
+form{
+    justify-content:left;
+}
